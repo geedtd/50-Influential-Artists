@@ -244,9 +244,9 @@ console.log(getArtistByIndex(artists, 0));
  * it will remove Amedeo Modigliani from our dataset.
 */
 function removeArtist(arr, arrNum) {
-   return arr.splice(arrNum, 1); 
+   let removed = arr.splice(arrNum, 1); 
+   console.log(removed);
   }
-  console.log(removeArtist(artists,0)) 
   
 
 

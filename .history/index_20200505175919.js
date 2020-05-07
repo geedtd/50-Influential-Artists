@@ -244,10 +244,9 @@ console.log(getArtistByIndex(artists, 0));
  * it will remove Amedeo Modigliani from our dataset.
 */
 function removeArtist(arr, arrNum) {
-   return arr.splice(arrNum, 1); 
+    arr.splice(arrNum,1);
+    return console.log(`The array item removed was ${arr[arrNum]}`) 
   }
-  console.log(removeArtist(artists,0)) 
-  
 
 
   
@@ -256,9 +255,11 @@ function removeArtist(arr, arrNum) {
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(artists){
-}
+function lotsOfArt(/* Code here */){
 
+    /* Code here */
+
+  }
 
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨

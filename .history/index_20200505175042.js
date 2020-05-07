@@ -226,12 +226,10 @@ console.log(artists[8].name)
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(artists, id) {
-    return `The artist at index ${id} is ${artists[id].name}`
+function getArtistByIndex(id, name) {
+    return `The artist at index ${id} is ${name[id].name}`
   }
-console.log(getArtistByIndex(artists, 0));
-
-
+  
   /**
 
 
@@ -244,21 +242,19 @@ console.log(getArtistByIndex(artists, 0));
  * it will remove Amedeo Modigliani from our dataset.
 */
 function removeArtist(arr, arrNum) {
-   return arr.splice(arrNum, 1); 
+    return arr.splice(arrNum,1);
   }
-  console.log(removeArtist(artists,0)) 
-  
-
-
   
   /**
 
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(artists){
-}
+function lotsOfArt(/* Code here */){
 
+    /* Code here */
+
+  }
 
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨

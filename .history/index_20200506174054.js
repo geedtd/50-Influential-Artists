@@ -200,14 +200,7 @@ const artists = [
       "paintings": 328
     }
 ]
-const issaMe = [
-  {id: 21,
-  name: 'Gerardo C', 
-  years: 1994,
-  genre: 'Web Design', 
-  nationality: 'Mexican',
-  bio: 'Attempting to go hard in the paint, as I'}
-] 
+
 // 🖌🖼 M V P 🖼🖌 //
 
 /* Task 1: Practice accessing data above by console.log-ing following items:
@@ -265,19 +258,25 @@ function lotsOfArt(artists){
   for (let i = 0; i < artists.length; i += 1) {
     if (artists[i].paintings > 100) {
       bigPaint.push(artists[i].name)
-    }
-  } 
+    } 
   return bigPaint;
 }
-console.log(lotsOfArt(artists));
+console.log(lotsOfArt(artists))
 
 
 /* Task 6: Create a function called `addArtist` that can accept an array of 
 information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨*/
+const issaMe = [
+  {id: 21,
+  name: 'Gerardo C', 
+  years: 1994,
+  genre: 'Web Design', 
+  nationality: 'Mexican',
+  bio: 'Attempting to go hard in the paint, as I'}
+] 
 
-console.log(issaMe)
 function addArtist(artists, addingIn){
-  artists.push(...addingIn)
+  artists.push(addingIn)
   return artists;
   }
 console.log(addArtist(artists,issaMe));

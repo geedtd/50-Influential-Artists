@@ -265,11 +265,10 @@ function lotsOfArt(artists){
   for (let i = 0; i < artists.length; i += 1) {
     if (artists[i].paintings > 100) {
       bigPaint.push(artists[i].name)
-    }
-  } 
+    } 
   return bigPaint;
 }
-console.log(lotsOfArt(artists));
+console.log(lotsOfArt(artists))
 
 
 /* Task 6: Create a function called `addArtist` that can accept an array of 
@@ -331,4 +330,4 @@ function randomize(/* Code here */){
   }
 
 
- /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+ /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */}

@@ -292,10 +292,14 @@ argument and returns an array with names of artists who were born the 20th centu
 
 function get20s(artists){
 let oldArt = [];
+convert = parseInt(artists[i].year.subString(0,4))
 for (let i = 0; i < artists.length; i += 1) {
-  
+  if (convert >= 1800 && convert <= 1900) {
+    oldArt.push(artists[i].name)
+  }
+}
 return oldArt
-}}
+}
 
 /* STRETCH 2: Programtically console.log HTML element structure 
 

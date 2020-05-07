@@ -295,7 +295,7 @@ let oldArt = [];
 for (let i = 0; i < artists.length; i += 1) {
   
 return oldArt
-}}
+}
 
 /* STRETCH 2: Programtically console.log HTML element structure 
 
